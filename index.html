@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="validation.css">
+  <title>THE BANK OF JEREMIAH</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>CREDENTIALZZZ</legend>
+
+      <label class="hidden" for="firstname">First Name: </label>
+      <input type="text" required name="firstname" placeholder="first name" id="firstname"><br>
+
+      <label class="hidden" for="middlename">Middle Name: </label>
+      <input type="text" required name="middlename" placeholder="middlename" id="middlename">
+
+      <label class="hidden" for="lastname">Last Name: </label>
+      <input type="text" required name="lastname" placeholder="lastname" id="lastnmae">
+
+      <br>
+
+      <label class="hidden" for="address">Address: </label>
+      <input type="text" required name="address" placeholder="123 Jerry Way" id="address">
+
+      <label class="hidden" for="job">Occupation: </label>
+      <input type="text" required name="job" placeholder="what do you do?" id="job">
+
+      <br>
+
+      <label class="hidden" for="employer">Employer: </label>
+      <input type="text" required name="employer" placeholder="Where do you work?" id="employer">
+
+      <label class="hidden" for="employer_address">Employer Address: </label>
+      <input type="text" required name="employer_address" placeholder="Where do you work?" id="employer_address">
+
+      <br>
+
+      <label class="hidden" for="loantype">What type of Loan are you looking for?</label>
+
+      <label for="commercial">Commercial</label>
+      <input type="radio" name="loantype" id="commercial" value="commercial" />
+
+      <label for="real_estate">Real Estate</label>
+      <input type="radio" name="loantype" id="real_estate" value="real_estate" />
+
+      <label for="personal">Personal</label>
+      <input type="radio" name="loantype" id="personal" value="personal" />
+
+      <label for="mortgage">Mortgage</label>
+      <input type="radio" name="loantype" id="mortgage" value="mortgage" />
+
+
+      <label class="hidden" for="loan_amount">Amount of Loan</label>
+      <input type="number" min="100" max="100000000" required name="loan_amount" placeholder="How much do you need to borrow?" id="loan_amount">
+
+      <br>
+
+      <label class="hidden" for="term_length">How long will you need this loan?</label>
+
+      <label class="hidden" for="term_length">5 years</label>
+      <input type="radio" name="term_length" id="5years" value="5years">
+
+      <label class="hidden" for="term_length">10 years</label>
+      <input type="radio" name="term_length" id="10years" value="10years">
+
+      <label class="hidden" for="term_length">15 years</label>
+      <input type="radio" name="term_length" id="15years" value="15years">
+
+      <br>
+
+      <label class="hidden" for="special_conditions">Special Conditions</label>
+
+      <select>
+        <option>I have a down payment</option>
+        <option>Out of State Resident</option>
+        <option>Married</option>
+        <option>Loan will be Co-signed</option>
+      </select>
+
+      <br>
+      <br>
+
+      <label class="hidden" for="comments_concerns">Comments/Concerns?</label>
+      <textarea placeholder="Please tell us about any addition comments or concerns you have."></textarea>
+
+      <br>
+
+      <label class="hidden" for"email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="jerry@realcooldude.com">
+
+      <label class="hidden" for"phone">Telephone Number</label>
+      <input type="phone" id="phone" name="phone">
+
+      <label class="hidden" for"linkedIn">LinkedIn URL</label>
+      <input type="url" id="url" name="linkedInUrl" required for="linkedIn">
+
+
+    </fieldset>
+  </form>
+</body>
+</html>
